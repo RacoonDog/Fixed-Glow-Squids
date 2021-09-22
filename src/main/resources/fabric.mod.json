@@ -6,7 +6,11 @@
   "description": "I fixed the glow squids by removing the glow squids.",
   "authors": [ "Crosby" ],
   "contact": {
-    "email": "ggcrosbyyt@gmail.com"
+    "email": "ggcrosbyyt@gmail.com",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/fixed-glow-squids",
+    "issues": "https://github.com/RacoonDog/Fixed-Glow-Squids/issues",
+    "sources": "https://github.com/RacoonDog/Fixed-Glow-Squids",
+    "discord": "Crosby#9153"
   },
   "license": "All-Rights-Reserved",
   "icon": "assets/fixedglowsquids/icon.png",
