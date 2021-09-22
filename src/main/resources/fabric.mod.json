@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "fixedglowsquids",
+  "version": "${version}",
+  "name": "Fixed Glow Squids",
+  "description": "I fixed the glow squids by removing the glow squids.",
+  "authors": [ "Crosby" ],
+  "contact": {
+    "email": "ggcrosbyyt@gmail.com"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fixedglowsquids/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.racoondog.fixedglowsquids.FixedGlowSquids"
+    ]
+  },
+  "mixins": [
+    "fixedglowsquids.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.7",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
