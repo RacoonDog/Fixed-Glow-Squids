@@ -24,8 +24,9 @@
     "fixedglowsquids.mixins.json"
   ],
   "depends": {
+    "java": ">=16",
     "fabricloader": ">=0.11.7",
     "fabric": "*",
-    "minecraft": "1.17.1"
+    "minecraft": "1.17.x"
   }
 }
