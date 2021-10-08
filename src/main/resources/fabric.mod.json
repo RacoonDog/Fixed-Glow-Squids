@@ -1,10 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "fixedglowsquids",
+  "id": "fixedglowsquids",,
   "version": "${version}",
   "name": "Fixed Glow Squids",
   "description": "I fixed the glow squids by removing the glow squids.",
   "authors": [ "Crosby" ],
+  "contributors": [ "Daomephsta#0044", "nessie❦#2402" ],
   "contact": {
     "email": "ggcrosbyyt@gmail.com",
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/fixed-glow-squids",
