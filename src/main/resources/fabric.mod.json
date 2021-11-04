@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "fixedglowsquids",,
+  "id": "fixedglowsquids",
   "version": "${version}",
   "name": "Fixed Glow Squids",
   "description": "I fixed the glow squids by removing the glow squids.",
@@ -26,8 +26,18 @@
   ],
   "depends": {
     "java": ">=16",
-    "fabricloader": ">=0.11.7",
+    "fabricloader": ">=0.11.6",
     "fabric": "*",
     "minecraft": "1.17.x"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "fixedglowsquids.youtube": "https://youtu.be/ErSCu8fbxX4",
+        "fixedglowsquids.curseforge": "https://www.curseforge.com/minecraft/mc-mods/fixed-glow-squids",
+        "fixedglowsquids.modrinth": "https://modrinth.com/mod/fixedglowsquids",
+        "fixedglowsquids.planetminecraft": "https://www.planetminecraft.com/mod/fixed-glow-squids/"
+      }
+    }
   }
 }
