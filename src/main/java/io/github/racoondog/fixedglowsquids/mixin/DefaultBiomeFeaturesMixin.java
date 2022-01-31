@@ -21,7 +21,7 @@ public abstract class DefaultBiomeFeaturesMixin {
         return builder;
     }
      */
-    @Redirect(method = "Lnet/minecraft/world/gen/feature/DefaultBiomeFeatures;addCaveWaterMobs(Lnet/minecraft/world/biome/SpawnSettings$Builder;)V",
+    @Redirect(method = "Lnet/minecraft/world/gen/feature/DefaultBiomeFeatures;addCaveMobs(Lnet/minecraft/world/biome/SpawnSettings$Builder;)V",
             slice = @Slice(from = @At(value = "FIELD", target = "Lnet/minecraft/entity/EntityType;GLOW_SQUID:Lnet/minecraft/entity/EntityType;", opcode = Opcodes.GETSTATIC, ordinal = 0)),
             at = @At(value = "INVOKE",
                     target = "Lnet/minecraft/world/biome/SpawnSettings$Builder;spawn(Lnet/minecraft/entity/SpawnGroup;Lnet/minecraft/world/biome/SpawnSettings$SpawnEntry;)Lnet/minecraft/world/biome/SpawnSettings$Builder;",

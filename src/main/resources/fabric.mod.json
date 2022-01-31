@@ -7,7 +7,6 @@
   "authors": [ "Crosby" ],
   "contributors": [ "Daomephsta#0044", "nessie❦#2402" ],
   "contact": {
-    "email": "ggcrosbyyt@gmail.com",
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/fixed-glow-squids",
     "issues": "https://github.com/RacoonDog/Fixed-Glow-Squids/issues",
     "sources": "https://github.com/RacoonDog/Fixed-Glow-Squids",
@@ -25,10 +24,10 @@
     "fixedglowsquids.mixins.json"
   ],
   "depends": {
-    "java": ">=16",
-    "fabricloader": ">=0.11.6",
+    "java": ">=17",
+    "fabricloader": ">=0.12.0",
     "fabric": "*",
-    "minecraft": "1.17.x"
+    "minecraft": "1.18.x"
   },
   "custom": {
     "modmenu": {

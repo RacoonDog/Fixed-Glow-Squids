@@ -8,9 +8,9 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(EntityType.class)
-public class EntityTypeMixin {
+public abstract class EntityTypeMixin {
     @Inject(method = "register", at = @At(value = "HEAD"), cancellable = true)
-    private static <T extends Entity> void mixin(String id, EntityType.Builder<T> type, CallbackInfoReturnable cir) {
+    private static <T extends Entity> void mixin(String id, EntityType.Builder<T> type, CallbackInfoReturnable<EntityType<T>> cir) {
         if (id.equals("glow_squid")) cir.setReturnValue(type.build(id));
     }
 }
